@@ -1,22 +1,32 @@
 body {
     background-color: #03396e;
-
 }
+
 .custom-navbar {
     background: #03396e;
     border-bottom: 5px solid #ffffff;
-    display: center;
 }
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
 .navbar-nav .nav-link {
     color: #ffffff;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: bold;
-    padding: 10px 30px;
-    border-bottom: center;
+    padding: 3px 3px;
+    text-align: center;
+    transition: color 0.3s ease;
 }
+
 .navbar-nav .nav-link:hover {
     color: #c2925b;
 }
+
 .navbar-nav .dropdown-item:hover {
     background-color: rgb(255, 253, 253);
 }
