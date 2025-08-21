@@ -1,0 +1,25 @@
+.tech-box {
+  background: rgba(255, 255, 255, 0.05); 
+  border-radius: 10px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(50px, 1fr)); 
+  gap: 20px;
+  justify-items: center;
+  align-items: center;
+}
+
+.tech-icon {
+  font-size: 20px;
+  color: #1e2e47;;
+  transition: transform 0.2s, color 0.3s;
+}
+
+.dark .tech-icon {
+  color: #ffffff; /* ขาว */
+}
+
+.tech-icon:hover {
+  transform: scale(1.2);
+  color: #b39b39; 
+}
